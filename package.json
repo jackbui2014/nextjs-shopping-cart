@@ -1,0 +1,38 @@
+{
+  "name": "shopping-cart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
+    "classnames": "^2.3.1",
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-redux": "^7.2.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^14.0.4",
+    "@types/jest": "^27.4.1",
+    "@types/node": "17.0.23",
+    "@types/react": "17.0.43",
+    "@types/react-dom": "17.0.14",
+    "@types/react-redux": "^7.1.23",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
+    "jest": "^27.5.1",
+    "jest-css-modules-transform": "^4.3.0",
+    "sass": "^1.49.11",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "4.6.3"
+  }
+}
